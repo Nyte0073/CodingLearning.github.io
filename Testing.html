@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Testing Site</title>
+        <link rel="stylesheet" href="styles.css">
+
+        <style>
+
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1 class="title">Java Coding <br> Lessons: Basics</h1>
+        </div>
+
+        <div>
+            <iframe src="" style="position: relative; left: 500px; bottom: 140px; border: 4px dotted goldenrod; overflow-y: hidden;" height="640" width="800" name="iframe1" id="iframe"></iframe>
+
+            <ul style="width: fit-content; list-style-type: none; position: relative; bottom: 620px; margin-left: 0px;">
+                <li><button onclick="sendLinkForI1()">Java Syntax</button></li>
+                <li><button onclick="sendLinkForI2()">Java Variables</button></li>
+                <li><button onclick="sendLinkForI3()">Java Data Types</button></li>
+                <li> <button onclick="sendLinkForI4()">Java Strings</button></li>    
+                <li><button onclick="sendLinkForI5()">Java Arrays</button></li>    
+                <li><button onclick="sendLinkForI6()">Java Comments</button></li>
+                <li><button onclick="sendLinkForI7()">Java Operators</button></li>
+            </ul>
+
+             <a href="Testing2.html" id="iframeLink"></a>
+             <a href="Testing3.html" id="iframeLink2"></a>
+             <a href="Testing4.html" id="iframeLink3"></a>
+             <a href="Testing5.html" id="iframeLink4"></a>
+             <a href="Testing6.html" id="iframeLink5"></a>
+             <a href="Testing7.html" id="iframeLink6"></a>
+             <a href="Testing8.html" id="iframeLink7"></a>
+            
+            <script>
+                function sendLinkForI1() {
+                    var iframe = document.getElementById("iframe");
+                    var linkValue = document.getElementById("iframeLink").getAttribute("href");
+                    iframe.src = linkValue;
+                }
+
+                function sendLinkForI2() {
+                    var iframe = document.getElementById("iframe");
+                    var linkValue = document.getElementById("iframeLink2").getAttribute("href");
+                    iframe.src = linkValue;
+                }
+
+                function sendLinkForI3() {
+                    var iframe = document.getElementById("iframe");
+                    var linkValue = document.getElementById("iframeLink3").getAttribute("href");
+                    iframe.src = linkValue;
+                }
+
+                function sendLinkForI4() {
+                    var iframe = document.getElementById("iframe");
+                    var linkValue = document.getElementById("iframeLink4").getAttribute("href");
+                    iframe.src = linkValue;
+                }
+
+                function sendLinkForI5() {
+                    var iframe = document.getElementById("iframe");
+                    var linkValue = document.getElementById("iframeLink5").getAttribute("href");
+                    iframe.src = linkValue;
+                }
+
+                function sendLinkForI6() {
+                    var iframe = document.getElementById("iframe");
+                    var linkValue = document.getElementById("iframeLink6").getAttribute("href");
+                    iframe.src = linkValue;
+                }
+
+                function sendLinkForI7() {
+                    var iframe = document.getElementById("iframe");
+                    var linkValue = document.getElementById("iframeLink7").getAttribute("href");
+                    iframe.src = linkValue;
+                }
+            </script>
+        </div>
+
+        <div>
+
+        </div>
+    </body>
+</html>
